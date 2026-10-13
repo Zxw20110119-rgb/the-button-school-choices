@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "category": "AI",
+    "benefit_text": "AI can remove nearly all misinformation online.",
+    "consequence_text": "One company decides what counts as true.",
+    "press_value": "Control",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 2,
+    "category": "AI",
+    "benefit_text": "An AI tutor gives every student unlimited personal help.",
+    "consequence_text": "It reports signs of cheating or disengagement to teachers.",
+    "press_value": "Security",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 3,
+    "category": "AI",
+    "benefit_text": "AI can predict serious crimes before they happen.",
+    "consequence_text": "People may be restricted for something they have not done.",
+    "press_value": "Security",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 4,
+    "category": "AI",
+    "benefit_text": "AI makes hiring almost free of human bias.",
+    "consequence_text": "No person can explain or appeal its final decisions.",
+    "press_value": "Equality",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 5,
+    "category": "AI",
+    "benefit_text": "Your AI assistant always knows the best decision for you.",
+    "consequence_text": "Following its advice slowly weakens your own judgement.",
+    "press_value": "Automation",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 6,
+    "category": "AI",
+    "benefit_text": "AI can recreate the voice and style of any historical figure for education.",
+    "consequence_text": "Nobody can reliably tell authentic recordings from generated ones.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 7,
+    "category": "AI",
+    "benefit_text": "AI gives everyone a perfectly personalised news feed.",
+    "consequence_text": "You rarely encounter ideas it thinks you will dislike.",
+    "press_value": "Convenience",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 8,
+    "category": "AI",
+    "benefit_text": "AI can write every routine school assignment instantly.",
+    "consequence_text": "Schools replace written homework with constant live assessment.",
+    "press_value": "Convenience",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 9,
+    "category": "AI",
+    "benefit_text": "AI can translate every conversation perfectly in real time.",
+    "consequence_text": "Fewer people choose to learn other languages and cultures deeply.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 10,
+    "category": "AI",
+    "benefit_text": "AI can detect when someone online is lying with 95% accuracy.",
+    "consequence_text": "Every video call and message must be analysed.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 11,
+    "category": "Privacy",
+    "benefit_text": "Your city can find missing people within minutes.",
+    "consequence_text": "Public cameras identify and track everyone at all times.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 12,
+    "category": "Privacy",
+    "benefit_text": "Schools can stop most bullying before it escalates.",
+    "consequence_text": "Software continuously scans every student message on school devices.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 13,
+    "category": "Privacy",
+    "benefit_text": "Apps become free and contain no advertising.",
+    "consequence_text": "They can build detailed profiles from everything you do.",
+    "press_value": "Convenience",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 14,
+    "category": "Privacy",
+    "benefit_text": "A health system warns you years before many illnesses appear.",
+    "consequence_text": "It combines your medical, shopping and movement data.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 15,
+    "category": "Privacy",
+    "benefit_text": "You never need another password.",
+    "consequence_text": "Your face becomes the key to nearly every service.",
+    "press_value": "Convenience",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 16,
+    "category": "Privacy",
+    "benefit_text": "Police solve far more serious crimes.",
+    "consequence_text": "Everyone must submit a DNA sample to a national database.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 17,
+    "category": "Privacy",
+    "benefit_text": "Your parents can always confirm that you are safe.",
+    "consequence_text": "They can see your exact location until you turn eighteen.",
+    "press_value": "Security",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 18,
+    "category": "Privacy",
+    "benefit_text": "Online harassment becomes much easier to stop.",
+    "consequence_text": "Every social-media account must be linked to a verified identity.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 19,
+    "category": "Privacy",
+    "benefit_text": "A smart home automatically saves energy and prevents accidents.",
+    "consequence_text": "It records patterns of activity in every room.",
+    "press_value": "Convenience",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 20,
+    "category": "Privacy",
+    "benefit_text": "Personal data can help researchers solve major public problems.",
+    "consequence_text": "You cannot choose which approved studies use your data.",
+    "press_value": "Collective",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 21,
+    "category": "Society",
+    "benefit_text": "Everyone receives enough money for basic living costs.",
+    "consequence_text": "Some public services and tax benefits are reduced to fund it.",
+    "press_value": "Equality",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 22,
+    "category": "Society",
+    "benefit_text": "No news organisation can knowingly publish false claims.",
+    "consequence_text": "A government-appointed body decides when a claim crosses the line.",
+    "press_value": "Security",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 23,
+    "category": "Society",
+    "benefit_text": "Voting becomes quick and accessible from any phone.",
+    "consequence_text": "The system cannot provide a paper ballot for independent recounts.",
+    "press_value": "Convenience",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 24,
+    "category": "Society",
+    "benefit_text": "Public transport becomes free for everyone.",
+    "consequence_text": "City taxes rise even for people who never use it.",
+    "press_value": "Collective",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 25,
+    "category": "Society",
+    "benefit_text": "Every student receives the same educational resources.",
+    "consequence_text": "Schools cannot spend extra money raised by their own communities.",
+    "press_value": "Equality",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 26,
+    "category": "Society",
+    "benefit_text": "Nobody can inherit more than a set amount of wealth.",
+    "consequence_text": "Families lose the right to pass on everything they built.",
+    "press_value": "Equality",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 27,
+    "category": "Society",
+    "benefit_text": "Public debates become calmer and more factual.",
+    "consequence_text": "Anonymous political speech is banned.",
+    "press_value": "Security",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 28,
+    "category": "Society",
+    "benefit_text": "All essential government services work through one simple app.",
+    "consequence_text": "Losing access to the app can lock you out of daily life.",
+    "press_value": "Convenience",
+    "walk_value": "Independence",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 29,
+    "category": "Society",
+    "benefit_text": "Every citizen must complete one year of community service.",
+    "consequence_text": "People lose one year of personal choice over study or work.",
+    "press_value": "Collective",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 30,
+    "category": "Society",
+    "benefit_text": "Algorithms distribute public funding using consistent rules.",
+    "consequence_text": "Elected representatives can no longer make exceptions for unusual cases.",
+    "press_value": "Equality",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 31,
+    "category": "Medicine",
+    "benefit_text": "Doctors can prevent many inherited diseases before birth.",
+    "consequence_text": "The same technology could be used to select non-medical traits.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 32,
+    "category": "Medicine",
+    "benefit_text": "Organ transplants never have waiting lists.",
+    "consequence_text": "Animal organs are genetically modified and raised for human use.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 33,
+    "category": "Medicine",
+    "benefit_text": "A brain implant restores memory lost through illness.",
+    "consequence_text": "The company that made it can send required software updates.",
+    "press_value": "Progress",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 34,
+    "category": "Medicine",
+    "benefit_text": "Medicine is priced low enough for everyone to afford.",
+    "consequence_text": "Drug companies receive much less reward for successful discoveries.",
+    "press_value": "Equality",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 35,
+    "category": "Medicine",
+    "benefit_text": "A national system gives treatment first to those most likely to recover.",
+    "consequence_text": "Age and disability influence a person’s priority score.",
+    "press_value": "Collective",
+    "walk_value": "Equality",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 36,
+    "category": "Medicine",
+    "benefit_text": "Schools can identify mental-health concerns much earlier.",
+    "consequence_text": "Students must complete regular private wellbeing screenings.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 37,
+    "category": "Medicine",
+    "benefit_text": "Wearable devices alert emergency services before a medical crisis.",
+    "consequence_text": "Your health data is continuously sent to a central system.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 38,
+    "category": "Medicine",
+    "benefit_text": "Scientists can test new treatments much faster using digital human models.",
+    "consequence_text": "Some rare biological reactions may be missed.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 39,
+    "category": "Medicine",
+    "benefit_text": "Every patient receives the same evidence-based treatment.",
+    "consequence_text": "Doctors have less freedom to rely on judgement in unusual cases.",
+    "press_value": "Equality",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 40,
+    "category": "Medicine",
+    "benefit_text": "A pill can safely reduce the need for sleep by half.",
+    "consequence_text": "School and work schedules may expand because people can stay awake longer.",
+    "press_value": "Convenience",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 41,
+    "category": "Environment",
+    "benefit_text": "Your country reaches zero transport emissions in five years.",
+    "consequence_text": "Most private petrol cars are banned from city centres.",
+    "press_value": "Collective",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 42,
+    "category": "Environment",
+    "benefit_text": "Air travel becomes carbon neutral.",
+    "consequence_text": "Every passenger’s yearly flights are strictly limited.",
+    "press_value": "Collective",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 43,
+    "category": "Environment",
+    "benefit_text": "Single-use packaging almost disappears.",
+    "consequence_text": "Food and everyday products become noticeably more expensive.",
+    "press_value": "Collective",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 44,
+    "category": "Environment",
+    "benefit_text": "Large forests are permanently protected.",
+    "consequence_text": "Nearby towns lose access to land that supports many local jobs.",
+    "press_value": "Collective",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 45,
+    "category": "Environment",
+    "benefit_text": "Homes waste almost no energy.",
+    "consequence_text": "Governments can require costly upgrades when houses are sold.",
+    "press_value": "Collective",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 46,
+    "category": "Environment",
+    "benefit_text": "Clean energy becomes extremely cheap.",
+    "consequence_text": "Large wind and solar projects may be built near communities that oppose them.",
+    "press_value": "Progress",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 47,
+    "category": "Environment",
+    "benefit_text": "Fishing populations fully recover.",
+    "consequence_text": "Commercial fishing is paused for several years.",
+    "press_value": "Caution",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 48,
+    "category": "Environment",
+    "benefit_text": "Your city removes most traffic and pollution.",
+    "consequence_text": "Road space is taken from cars and given to buses and bicycles.",
+    "press_value": "Collective",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 49,
+    "category": "Environment",
+    "benefit_text": "Companies must repair all environmental damage they cause.",
+    "consequence_text": "Prices rise and some businesses move overseas.",
+    "press_value": "Collective",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 50,
+    "category": "Environment",
+    "benefit_text": "Scientists can cool the planet using atmospheric technology.",
+    "consequence_text": "Stopping the system suddenly could cause rapid climate change.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 51,
+    "category": "Technology",
+    "benefit_text": "A single digital ID makes every online service simple.",
+    "consequence_text": "One security failure could expose your entire digital life.",
+    "press_value": "Convenience",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 52,
+    "category": "Technology",
+    "benefit_text": "You can instantly recover anything deleted from your devices.",
+    "consequence_text": "Nothing you create is ever fully erased.",
+    "press_value": "Convenience",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 53,
+    "category": "Technology",
+    "benefit_text": "Deepfakes disappear from major platforms.",
+    "consequence_text": "Every uploaded image and video must pass an authenticity check.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 54,
+    "category": "Technology",
+    "benefit_text": "Robots complete all dangerous and exhausting jobs.",
+    "consequence_text": "Millions of workers must change careers within a few years.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 55,
+    "category": "Technology",
+    "benefit_text": "Your phone battery lasts for a month.",
+    "consequence_text": "The battery cannot be replaced or recycled safely.",
+    "press_value": "Convenience",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 56,
+    "category": "Technology",
+    "benefit_text": "Internet access becomes a free public service.",
+    "consequence_text": "The network blocks content that an independent board labels harmful.",
+    "press_value": "Equality",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 57,
+    "category": "Technology",
+    "benefit_text": "Smart glasses give useful information about everything you see.",
+    "consequence_text": "People around you cannot know when they are being analysed.",
+    "press_value": "Convenience",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 58,
+    "category": "Technology",
+    "benefit_text": "A global system permanently proves who created every digital work.",
+    "consequence_text": "Anonymous creation online becomes nearly impossible.",
+    "press_value": "Reward",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 59,
+    "category": "Technology",
+    "benefit_text": "All devices use one perfectly compatible system.",
+    "consequence_text": "A single organisation controls the standard and its updates.",
+    "press_value": "Convenience",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 60,
+    "category": "Technology",
+    "benefit_text": "Children are protected from nearly all harmful online content.",
+    "consequence_text": "Age verification is required to access most websites.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 61,
+    "category": "Freedom",
+    "benefit_text": "Schools can guarantee a distraction-free learning day.",
+    "consequence_text": "Student phones are locked by software during school hours.",
+    "press_value": "Collective",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 62,
+    "category": "Freedom",
+    "benefit_text": "People are protected from manipulative recommendation systems.",
+    "consequence_text": "Users cannot turn on unlimited personalised feeds.",
+    "press_value": "Security",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 63,
+    "category": "Freedom",
+    "benefit_text": "Every worker receives at least four weeks of paid leave.",
+    "consequence_text": "People cannot choose to trade that leave for extra pay.",
+    "press_value": "Equality",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 64,
+    "category": "Freedom",
+    "benefit_text": "Public spaces become safer and quieter at night.",
+    "consequence_text": "A strict youth curfew applies even to those causing no problems.",
+    "press_value": "Security",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 65,
+    "category": "Freedom",
+    "benefit_text": "Students can choose almost every subject they study.",
+    "consequence_text": "They may graduate without learning some shared basic knowledge.",
+    "press_value": "Choice",
+    "walk_value": "Collective",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 66,
+    "category": "Freedom",
+    "benefit_text": "People can move and work freely between all countries.",
+    "consequence_text": "Individual countries lose control over who can settle there.",
+    "press_value": "Freedom",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 67,
+    "category": "Freedom",
+    "benefit_text": "Social platforms must show every legal opinion equally.",
+    "consequence_text": "Users cannot fully filter ideas they find offensive or upsetting.",
+    "press_value": "Freedom",
+    "walk_value": "Security",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 68,
+    "category": "Freedom",
+    "benefit_text": "Workers can choose exactly when and where they work.",
+    "consequence_text": "Teams have fewer shared hours for fast decisions.",
+    "press_value": "Choice",
+    "walk_value": "Collective",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 69,
+    "category": "Freedom",
+    "benefit_text": "Citizens can directly vote on every major law.",
+    "consequence_text": "Complex decisions are made through short public campaigns.",
+    "press_value": "Freedom",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 70,
+    "category": "Freedom",
+    "benefit_text": "Students can anonymously review every teacher.",
+    "consequence_text": "Reviews may affect careers even when claims cannot be verified.",
+    "press_value": "Freedom",
+    "walk_value": "Fairness",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 71,
+    "category": "Fairness",
+    "benefit_text": "University places are divided equally among all regions.",
+    "consequence_text": "Some applicants with higher grades lose places.",
+    "press_value": "Equality",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 72,
+    "category": "Fairness",
+    "benefit_text": "Every team receives the same budget.",
+    "consequence_text": "Successful teams cannot keep the extra money they earn.",
+    "press_value": "Equality",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 73,
+    "category": "Fairness",
+    "benefit_text": "School assessment focuses only on demonstrated skill.",
+    "consequence_text": "Effort and improvement do not affect the final grade.",
+    "press_value": "Reward",
+    "walk_value": "Equality",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 74,
+    "category": "Fairness",
+    "benefit_text": "An exam gives extra time to anyone who requests it.",
+    "consequence_text": "The school does not check whether students need the support.",
+    "press_value": "Equality",
+    "walk_value": "Fairness",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 75,
+    "category": "Fairness",
+    "benefit_text": "All employees’ salaries are public inside their company.",
+    "consequence_text": "Personal financial information becomes workplace knowledge.",
+    "press_value": "Equality",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 76,
+    "category": "Fairness",
+    "benefit_text": "No student can pay for private tutoring.",
+    "consequence_text": "Family wealth has less effect, but students lose extra learning choices.",
+    "press_value": "Equality",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 77,
+    "category": "Fairness",
+    "benefit_text": "A lottery decides between equally qualified applicants.",
+    "consequence_text": "Years of small differences in effort no longer affect the outcome.",
+    "press_value": "Equality",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 78,
+    "category": "Fairness",
+    "benefit_text": "Everyone pays the same percentage of income in tax.",
+    "consequence_text": "Low-income families feel each dollar of tax more strongly.",
+    "press_value": "Equality",
+    "walk_value": "Fairness",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 79,
+    "category": "Fairness",
+    "benefit_text": "School sports teams guarantee equal playing time.",
+    "consequence_text": "The strongest lineup cannot stay on during close matches.",
+    "press_value": "Equality",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 80,
+    "category": "Fairness",
+    "benefit_text": "Automated marking applies exactly the same rules to every essay.",
+    "consequence_text": "Original ideas outside its pattern may receive lower scores.",
+    "press_value": "Equality",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 81,
+    "category": "Future",
+    "benefit_text": "A permanent city on Mars gives humanity a second home.",
+    "consequence_text": "The same money could solve urgent problems on Earth.",
+    "press_value": "Progress",
+    "walk_value": "Collective",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 82,
+    "category": "Future",
+    "benefit_text": "People can preserve a complete digital copy of their memories.",
+    "consequence_text": "A company controls access to that copy after they die.",
+    "press_value": "Progress",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 83,
+    "category": "Future",
+    "benefit_text": "Driverless vehicles prevent nearly all road crashes.",
+    "consequence_text": "People are no longer allowed to drive on public roads.",
+    "press_value": "Security",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 84,
+    "category": "Future",
+    "benefit_text": "Machines produce almost everything people need.",
+    "consequence_text": "Paid employment stops being a central part of many lives.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 85,
+    "category": "Future",
+    "benefit_text": "Cities can predict and prevent most infrastructure failures.",
+    "consequence_text": "Every movement through the city contributes to the prediction system.",
+    "press_value": "Security",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 86,
+    "category": "Future",
+    "benefit_text": "Virtual worlds feel as convincing as physical ones.",
+    "consequence_text": "Many people choose to spend most of their free time inside them.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 87,
+    "category": "Future",
+    "benefit_text": "Human lifespan increases greatly through safe medicine.",
+    "consequence_text": "Younger generations wait much longer for leadership and resources.",
+    "press_value": "Progress",
+    "walk_value": "Equality",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 88,
+    "category": "Future",
+    "benefit_text": "Weather can be controlled to prevent droughts.",
+    "consequence_text": "Changing rain in one region may reduce it somewhere else.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 89,
+    "category": "Future",
+    "benefit_text": "A global council can act quickly on worldwide emergencies.",
+    "consequence_text": "Countries must follow some decisions their citizens opposed.",
+    "press_value": "Collective",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 90,
+    "category": "Future",
+    "benefit_text": "People can permanently remove painful memories.",
+    "consequence_text": "Those experiences no longer guide their future decisions.",
+    "press_value": "Convenience",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 91,
+    "category": "Space",
+    "benefit_text": "Asteroid mining provides abundant rare materials.",
+    "consequence_text": "Private companies can own resources taken from space.",
+    "press_value": "Progress",
+    "walk_value": "Equality",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 92,
+    "category": "Space",
+    "benefit_text": "A telescope can detect signs of distant intelligent life.",
+    "consequence_text": "Its signal reveals Earth’s location at the same time.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 93,
+    "category": "Space",
+    "benefit_text": "Humans build the first settlement on another world.",
+    "consequence_text": "The first settlers accept that rescue may not always be possible.",
+    "press_value": "Progress",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 94,
+    "category": "Space",
+    "benefit_text": "Satellites provide free internet everywhere on Earth.",
+    "consequence_text": "Night skies become crowded with moving lights.",
+    "press_value": "Equality",
+    "walk_value": "Caution",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 95,
+    "category": "Transport",
+    "benefit_text": "Public transport arrives within five minutes everywhere.",
+    "consequence_text": "Private cars pay a high fee to enter busy areas.",
+    "press_value": "Collective",
+    "walk_value": "Choice",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 96,
+    "category": "Transport",
+    "benefit_text": "Roads become safer through automatic speed control.",
+    "consequence_text": "Vehicles physically cannot exceed the detected limit.",
+    "press_value": "Security",
+    "walk_value": "Freedom",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 97,
+    "category": "Transport",
+    "benefit_text": "Flights become faster than ever.",
+    "consequence_text": "Sonic noise affects communities along the routes.",
+    "press_value": "Progress",
+    "walk_value": "Collective",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 98,
+    "category": "Transport",
+    "benefit_text": "Every journey uses one simple payment account.",
+    "consequence_text": "The provider can see a complete record of where you travel.",
+    "press_value": "Convenience",
+    "walk_value": "Privacy",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 99,
+    "category": "Data",
+    "benefit_text": "Scientific data must be freely available to everyone.",
+    "consequence_text": "Companies have less reason to pay for expensive research.",
+    "press_value": "Collective",
+    "walk_value": "Reward",
+    "active": true,
+    "version": 1
+  },
+  {
+    "id": 100,
+    "category": "Data",
+    "benefit_text": "Students can see exactly how school algorithms evaluate them.",
+    "consequence_text": "People may learn how to game the system instead of improving.",
+    "press_value": "Freedom",
+    "walk_value": "Control",
+    "active": true,
+    "version": 1
+  }
+]
