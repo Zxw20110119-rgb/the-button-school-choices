@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071c4a">
+  <meta name="description" content="The Button — ten impossible choices, anonymous answers, real results.">
+  <title>The Button</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to game</a>
+  <div class="ambient" aria-hidden="true"><i></i><i></i><i></i></div>
+  <header class="topbar">
+    <button class="wordmark" data-action="home" aria-label="Return home"><span class="logo-dot"></span>THE BUTTON</button>
+    <div class="mode-pill" id="modePill"><span></span>DEMO MODE · LOCAL RESULTS</div>
+  </header>
+
+  <main id="main" class="shell">
+    <section id="landing" class="screen landing is-active" aria-labelledby="landingTitle">
+      <div class="eyebrow">A GAME OF IMPOSSIBLE CHOICES</div>
+      <h1 id="landingTitle">Would you<br><em>press it?</em></h1>
+      <p class="landing-copy">Ten choices. No correct answers. See where you stand.</p>
+      <div class="hero-button-wrap">
+        <button class="arcade-button hero-button" data-action="start" aria-label="Start a new game">
+          <span class="button-face"><span>START</span></span><span class="button-base"></span>
+        </button>
+        <div class="button-shadow"></div>
+      </div>
+      <div class="trust-row"><span>Anonymous choices</span><b>·</b><span>No account required</span><b>·</b><span>10 questions</span></div>
+    </section>
+
+    <section id="game" class="screen game" aria-live="polite">
+      <div class="game-meta">
+        <span class="category" id="category">AI</span>
+        <span class="counter" id="counter">QUESTION 1 / 10</span>
+      </div>
+      <div class="progress-track" aria-label="Game progress"><span id="gameProgress"></span></div>
+      <article class="dilemma-card" id="dilemmaCard">
+        <div class="statement benefit"><span class="statement-label">YOU GET</span><h2 id="benefitText"></h2></div>
+        <div class="tradeoff"><span></span><b>BUT</b><span></span></div>
+        <div class="statement consequence"><h2 id="consequenceText"></h2></div>
+      </article>
+      <div class="choices" id="choices">
+        <div class="press-choice">
+          <button class="arcade-button game-button" data-choice="PRESS" aria-label="Press the button">
+            <span class="button-face"><span>PRESS</span></span><span class="button-base"></span>
+          </button>
+          <span class="choice-caption">PRESS THE BUTTON</span>
+        </div>
+        <div class="or"><span></span>OR<span></span></div>
+        <button class="walk-button" data-choice="WALK_AWAY"><span>WALK AWAY</span><small>Leave things as they are</small></button>
+      </div>
+
+      <section class="result-panel" id="resultPanel" aria-labelledby="resultTitle">
+        <div class="result-heading"><div><span class="result-kicker" id="resultKicker">YOUR CHOICE</span><h2 id="resultTitle">You pressed it.</h2></div><span class="total-votes" id="totalVotes">0 votes</span></div>
+        <div class="percent-row"><div><span>PRESS</span><strong id="pressPercent">0%</strong></div><div class="align-right"><span>WALK AWAY</span><strong id="walkPercent">0%</strong></div></div>
+        <div class="split-bar"><span id="pressBar"></span><span id="walkBar"></span></div>
+        <div class="insight-grid">
+          <div><span>YOUR POSITION</span><strong id="positionText">WITH THE MAJORITY</strong></div>
+          <div><span>CONTROVERSY</span><strong id="scoreText">96 · EXTREMELY DIVISIVE</strong></div>
+        </div>
+        <p class="neutral-note" id="neutralNote">Players are almost perfectly divided.</p>
+        <button class="next-button" data-action="next">NEXT QUESTION <span>→</span></button>
+      </section>
+      <div class="error-card" id="errorCard" role="alert"><strong>We couldn't load the next dilemma.</strong><button data-action="retry">TRY AGAIN</button></div>
+    </section>
+
+    <section id="summary" class="screen summary" aria-labelledby="summaryTitle">
+      <div class="eyebrow">ROUND COMPLETE</div><h1 id="summaryTitle">Your results</h1>
+      <p class="summary-lead" id="profileText"></p>
+      <div class="stats-grid">
+        <article class="stat featured"><span>BUTTONS PRESSED</span><strong id="pressedStat">0<span>/10</span></strong></article>
+        <article class="stat"><span>MINORITY CHOICES</span><strong id="minorityStat">0</strong></article>
+        <article class="stat"><span>MOST DIVISIVE TOPIC</span><strong id="topicStat">—</strong></article>
+        <article class="stat"><span>AVERAGE AGREEMENT</span><strong id="agreementStat">0%</strong></article>
+      </div>
+      <div class="profile-card"><div class="profile-head"><span>YOUR CHOICE PATTERN</span><small>Based on this round</small></div><div id="profileBars"></div><p>This is a reflection on your choices, not a scientific personality assessment.</p></div>
+      <div class="summary-actions"><button class="primary-action" data-action="restart">PLAY AGAIN</button><button class="secondary-action" data-action="copy">COPY RESULTS</button></div>
+      <p class="copy-status" id="copyStatus" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer><button data-action="privacy">Privacy</button><span>·</span><a href="./admin/">Admin</a><span>·</span><span>Built for thoughtful disagreement</span></footer>
+
+  <dialog id="privacyDialog"><button class="dialog-close" data-action="close-dialog" aria-label="Close">×</button><span class="dialog-icon">◎</span><h2>Your choices stay anonymous.</h2><p>The game creates a random ID in this browser. It does not ask for your name, email, school ID, location, camera, microphone or contacts.</p><p>Clearing browser storage creates a new anonymous ID.</p><button class="primary-action" data-action="close-dialog">GOT IT</button></dialog>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="./config.js" defer></script>
+  <script src="./questions.js" defer></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>
