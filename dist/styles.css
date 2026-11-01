@@ -4,3 +4,33 @@ button:focus-visible,a:focus-visible{outline:3px solid #fff;outline-offset:4px}.
 @media(max-width:620px){.topbar{padding:20px}.mode-pill{font-size:0;padding:10px}.mode-pill:after{content:"DEMO";font-size:10px}.mode-pill.is-live:after{content:"LIVE"}.shell{width:min(100% - 32px,780px)}.landing{padding-top:35px}.landing h1{font-size:clamp(3.4rem,18vw,5.1rem)}.landing-copy{font-size:15px;margin:22px 0 16px}.hero-button-wrap{height:190px}.trust-row{gap:6px;font-size:10px;flex-wrap:wrap;justify-content:center}.game{padding-top:24px}.dilemma-card{padding:30px 25px;min-height:330px;border-radius:23px}.statement h2{font-size:1.35rem}.tradeoff{margin:22px 0}.choices{gap:14px;margin-top:19px;align-items:center}.press-choice{gap:6px;flex-direction:column}.choice-caption{max-width:none;font-size:9px}.game-button{width:98px;height:81px}.walk-button{min-width:0;width:154px;padding:14px}.walk-button small{font-size:10px}.or{font-size:9px}.result-panel{padding:24px 20px;border-radius:23px}.result-heading h2{font-size:21px}.percent-row strong{font-size:34px}.insight-grid{grid-template-columns:1fr}.insight-grid div+div{border-left:0;border-top:1px solid #e4e8f0;padding-left:0}.summary{padding-top:32px}.summary-lead{font-size:15px}.stats-grid{gap:10px}.stat{padding:18px;min-height:110px}.stat strong{font-size:24px}.profile-card{padding:22px}.summary-actions{grid-template-columns:1fr}.footer{padding-bottom:30px}}
 @media(max-width:390px){.shell{width:calc(100% - 26px)}.dilemma-card{min-height:315px;padding:27px 21px}.statement h2{font-size:1.22rem}.choices{gap:8px}.game-button{width:92px}.walk-button{width:140px}.stat{padding:15px}.stat strong{font-size:21px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}.ambient{display:none}}
+
+/* Small visual refinements; keep the existing layout and button treatment. */
+:root{--blue:#2451af;--shadow:0 12px 32px rgba(1,12,45,.16)}
+body{background:linear-gradient(145deg,#0b1d46 0%,#173b83 58%,#234991 100%)}
+.ambient{opacity:.2}
+.ambient i{display:none}
+.wordmark{font-weight:800;letter-spacing:.06em}
+.mode-pill{background:rgba(4,18,59,.18);backdrop-filter:none;border-radius:8px;font-weight:600;letter-spacing:.04em}
+.mode-pill span,.mode-pill.is-live span{box-shadow:none}
+.eyebrow{font-weight:600;letter-spacing:.14em;color:#b4c8e9}
+.landing h1,.summary h1{font-weight:800;letter-spacing:-.055em;line-height:.94}
+.landing h1 em{text-shadow:none}
+.landing-copy,.summary-lead{color:#c7d6ee}
+.category{border-radius:6px;background:rgba(255,255,255,.08);font-weight:600;letter-spacing:.08em}
+.dilemma-card{background:#fafbfd;border-radius:20px}
+.dilemma-card:after{display:none}
+.statement-label{font-weight:700;letter-spacing:.12em}
+.statement h2{font-weight:600;letter-spacing:-.025em;line-height:1.35}
+.walk-button{background:rgba(255,255,255,.06);backdrop-filter:none;border-radius:10px}
+.walk-button:hover{background:rgba(255,255,255,.12)}
+.result-panel{border-radius:20px}
+.result-kicker,.insight-grid span,.stat>span,.profile-head>span{font-weight:700;letter-spacing:.1em}
+.total-votes{border-radius:6px}
+.next-button,.primary-action{border-radius:10px;box-shadow:none;font-weight:700;letter-spacing:.04em}
+.stat{border-radius:14px}
+.stat.featured{background:#ce3341}
+.profile-card,dialog{border-radius:16px}
+.secondary-action{border-radius:10px;font-weight:700;letter-spacing:.04em}
+footer{color:#a5bbdc}
+@media(max-width:620px){.dilemma-card,.result-panel{border-radius:18px}}
