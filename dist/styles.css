@@ -51,3 +51,12 @@ footer{color:#a5bbdc}
 @keyframes screen-in{from{opacity:0}to{opacity:1}}
 @keyframes result-in{from{opacity:0}to{opacity:1}}
 @keyframes card-out{to{opacity:0}}
+
+/* stop-design-slop CLEAN: local legibility and typography, with theme unchanged. */
+.statement h2{text-wrap:balance}
+.landing-copy,.summary-lead,.neutral-note,.profile-card>p,dialog p{text-wrap:pretty}
+.counter,.total-votes,.percent-row strong,.stat strong{font-variant-numeric:tabular-nums}
+.profile-head small,.profile-card>p,.total-votes{color:#56637a}
+.result-panel button:focus-visible,.error-card button:focus-visible{outline-color:var(--blue)}
+footer a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em;text-decoration-skip-ink:auto}
+::selection{background:var(--blue);color:#fff;text-shadow:none}
