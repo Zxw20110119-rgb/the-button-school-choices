@@ -5,32 +5,49 @@ button:focus-visible,a:focus-visible{outline:3px solid #fff;outline-offset:4px}.
 @media(max-width:390px){.shell{width:calc(100% - 26px)}.dilemma-card{min-height:315px;padding:27px 21px}.statement h2{font-size:1.22rem}.choices{gap:8px}.game-button{width:92px}.walk-button{width:140px}.stat{padding:15px}.stat strong{font-size:21px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}.ambient{display:none}}
 
-/* Small visual refinements; keep the existing layout and button treatment. */
-:root{--blue:#2451af;--shadow:0 12px 32px rgba(1,12,45,.16)}
-body{background:linear-gradient(145deg,#0b1d46 0%,#173b83 58%,#234991 100%)}
-.ambient{opacity:.2}
-.ambient i{display:none}
+/* Uncodixfy refinement: preserve the blue identity and physical red button. */
+:root{--blue:#2451af;--shadow:0 2px 8px rgba(1,12,45,.12)}
+body{background:#173b83}
+.ambient{display:none}
 .wordmark{font-weight:800;letter-spacing:.06em}
-.mode-pill{background:rgba(4,18,59,.18);backdrop-filter:none;border-radius:8px;font-weight:600;letter-spacing:.04em}
+.mode-pill{background:transparent;backdrop-filter:none;border-radius:6px;font-weight:500;letter-spacing:0}
 .mode-pill span,.mode-pill.is-live span{box-shadow:none}
-.eyebrow{font-weight:600;letter-spacing:.14em;color:#b4c8e9}
+.eyebrow{font-weight:500;letter-spacing:0;color:#c7d6ee}
 .landing h1,.summary h1{font-weight:800;letter-spacing:-.055em;line-height:.94}
 .landing h1 em{text-shadow:none}
 .landing-copy,.summary-lead{color:#c7d6ee}
-.category{border-radius:6px;background:rgba(255,255,255,.08);font-weight:600;letter-spacing:.08em}
-.dilemma-card{background:#fafbfd;border-radius:20px}
+.category{border-radius:6px;background:rgba(255,255,255,.08);font-weight:500;letter-spacing:0;text-transform:none}
+.counter{font-weight:500;letter-spacing:0}
+.dilemma-card{background:#fafbfd;border:1px solid #dfe5ef;border-radius:12px}
 .dilemma-card:after{display:none}
-.statement-label{font-weight:700;letter-spacing:.12em}
+.statement-label{font-weight:600;letter-spacing:0}
 .statement h2{font-weight:600;letter-spacing:-.025em;line-height:1.35}
+.tradeoff b{font-weight:500;letter-spacing:0}
+.choice-caption{font-weight:600;letter-spacing:.02em}
 .walk-button{background:rgba(255,255,255,.06);backdrop-filter:none;border-radius:10px}
 .walk-button:hover{background:rgba(255,255,255,.12)}
-.result-panel{border-radius:20px}
-.result-kicker,.insight-grid span,.stat>span,.profile-head>span{font-weight:700;letter-spacing:.1em}
+.walk-button span{font-weight:600;letter-spacing:.02em}
+.result-panel{border:1px solid #dfe5ef;border-radius:12px}
+.result-kicker,.insight-grid span,.stat>span,.profile-head>span{font-size:11px;font-weight:600;letter-spacing:0;color:#56637a}
 .total-votes{border-radius:6px}
+.split-bar{height:12px;border-radius:4px}
+#pressBar{background:var(--red)}
 .next-button,.primary-action{border-radius:10px;box-shadow:none;font-weight:700;letter-spacing:.04em}
-.stat{border-radius:14px}
+.stat{border:1px solid #dfe5ef;border-radius:10px}
 .stat.featured{background:#ce3341}
-.profile-card,dialog{border-radius:16px}
+.stat.featured>span{color:#fff}
+.profile-card{border:1px solid #dfe5ef;border-radius:12px}
+.axis-track span{box-shadow:none}
+.error-card{border-radius:12px}
+dialog{border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.16)}
+dialog::backdrop{backdrop-filter:none}
+dialog button:focus-visible{outline-color:var(--blue)}
+.dialog-icon{display:none}
 .secondary-action{border-radius:10px;font-weight:700;letter-spacing:.04em}
 footer{color:#a5bbdc}
-@media(max-width:620px){.dilemma-card,.result-panel{border-radius:18px}}
+.arcade-button:hover:not(:active):not(.is-pressed),.walk-button:hover,.next-button:hover,.primary-action:hover{transform:none}
+.walk-button,.next-button,.primary-action{transition:background-color .15s ease,border-color .15s ease}
+.screen,.result-panel.is-visible{animation-duration:.16s}
+@keyframes screen-in{from{opacity:0}to{opacity:1}}
+@keyframes result-in{from{opacity:0}to{opacity:1}}
+@keyframes card-out{to{opacity:0}}
