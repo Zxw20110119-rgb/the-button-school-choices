@@ -23,7 +23,6 @@
 
   <main id="main" class="shell">
     <section id="landing" class="screen landing is-active" aria-labelledby="landingTitle">
-      <div class="eyebrow">A GAME OF IMPOSSIBLE CHOICES</div>
       <h1 id="landingTitle">Would you<br><em>press it?</em></h1>
       <p class="landing-copy">Ten choices. No correct answers. See where you stand.</p>
       <div class="hero-button-wrap">
@@ -42,8 +41,8 @@
       </div>
       <div class="progress-track" aria-label="Game progress"><span id="gameProgress"></span></div>
       <article class="dilemma-card" id="dilemmaCard">
-        <div class="statement benefit"><span class="statement-label">YOU GET</span><h2 id="benefitText"></h2></div>
-        <div class="tradeoff"><span></span><b>BUT</b><span></span></div>
+        <div class="statement benefit"><span class="statement-label">You get</span><h2 id="benefitText"></h2></div>
+        <div class="tradeoff"><span></span><b>But</b><span></span></div>
         <div class="statement consequence"><h2 id="consequenceText"></h2></div>
       </article>
       <div class="choices" id="choices">
@@ -72,7 +71,7 @@
     </section>
 
     <section id="summary" class="screen summary" aria-labelledby="summaryTitle">
-      <div class="eyebrow">ROUND COMPLETE</div><h1 id="summaryTitle">Your results</h1>
+      <div class="eyebrow">Round complete</div><h1 id="summaryTitle">Your results</h1>
       <p class="summary-lead" id="profileText"></p>
       <div class="stats-grid">
         <article class="stat featured"><span>BUTTONS PRESSED</span><strong id="pressedStat">0<span>/10</span></strong></article>
@@ -86,7 +85,7 @@
     </section>
   </main>
 
-  <footer><button data-action="privacy">Privacy</button><span>·</span><a href="./admin/">Admin</a><span>·</span><span>Built for thoughtful disagreement</span></footer>
+  <footer><button data-action="privacy">Privacy</button><span>·</span><a href="./admin/">Admin</a></footer>
 
   <dialog id="privacyDialog"><button class="dialog-close" data-action="close-dialog" aria-label="Close">×</button><span class="dialog-icon">◎</span><h2>Your choices stay anonymous.</h2><p>The game creates a random ID in this browser. It does not ask for your name, email, school ID, location, camera, microphone or contacts.</p><p>Clearing browser storage creates a new anonymous ID.</p><button class="primary-action" data-action="close-dialog">GOT IT</button></dialog>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
