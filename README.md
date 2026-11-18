@@ -41,7 +41,7 @@ Serve `dist` through any static web server. For example:
 python3 -m http.server 4173 --directory dist
 ```
 
-Open `http://localhost:4173`. Without Supabase settings the app clearly displays **DEMO MODE · LOCAL RESULTS**. No local totals are presented as real votes.
+Open `http://localhost:4173`. Without Supabase settings the app clearly displays **Demo · sample votes**. No local totals are presented as real votes.
 
 ## Connect Supabase
 
@@ -92,4 +92,4 @@ The contents of `dist` can be deployed to any static host. Configure the same Su
 
 The workflow in `.github/workflows/pages.yml` publishes `dist/` whenever a commit is pushed to `main`. It can also be started manually from the Actions tab. The project is already a static website and requires no dependency installation or build step.
 
-This deployment uses **DEMO MODE · LOCAL RESULTS** because `dist/config.js` has empty Supabase settings. Shared voting and the admin dashboard require the Supabase setup above. For this deployment, allow `https://zxw20110119-rgb.github.io/the-button-school-choices/admin/` as an authentication redirect URL when enabling Supabase.
+This deployment uses **Demo · sample votes** because `dist/config.js` has empty Supabase settings. Shared voting and the admin dashboard require the Supabase setup above. For this deployment, allow `https://zxw20110119-rgb.github.io/the-button-school-choices/admin/` as an authentication redirect URL when enabling Supabase.
