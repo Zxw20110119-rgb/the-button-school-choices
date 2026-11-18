@@ -1,1 +1,24 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="theme-color" content="#071c4a"><title>The Button · Offline</title><style>body{margin:0;background:#071c4a;color:white;font:16px Inter,system-ui;display:grid;place-items:center;min-height:100vh;text-align:center}main{padding:32px}h1{font-size:40px;margin:0 0 12px}p{color:#c6d5f6;max-width:34ch}button{margin-top:16px;border:0;border-radius:14px;padding:14px 24px;font-weight:800;color:#071c4a}</style><main><h1>You’re offline.</h1><p>Reconnect to load new dilemmas and submit your choices.</p><button onclick="location.reload()">TRY AGAIN</button></main></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f1e7">
+  <title>Offline · The Button</title>
+  <style>
+    body { margin: 0; background: #f6f1e7; color: #24231e; font: 1rem/1.5 system-ui, sans-serif; }
+    main { width: min(100% - 36px, 720px); margin: clamp(36px, 8vw, 88px) auto; }
+    h1 { margin: 0; font: 700 clamp(2.6rem, 8vw, 5rem)/1 Georgia, serif; letter-spacing: -.055em; }
+    p { color: #615b50; }
+    button { min-height: 44px; padding: 10px 17px; border: 0; border-radius: 3px; background: #24231e; color: #fffcf5; font: inherit; font-weight: 700; cursor: pointer; }
+    button:focus-visible { outline: 3px solid #095671; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>You’re offline</h1>
+    <p>Reconnect to load new questions and save your choices.</p>
+    <button onclick="location.reload()">Try again</button>
+  </main>
+</body>
+</html>

@@ -23,8 +23,8 @@ The first production release must provide:
 
 The app has exactly two visible data states:
 
-- **LIVE · REAL RESULTS:** Supabase is configured and every displayed total is calculated from non-test votes.
-- **DEMO MODE · LOCAL RESULTS:** Supabase is unavailable or unconfigured. Results are stored only on the device and are never described as school-player or real results.
+- **Live · shared votes:** Supabase is configured and every displayed total is calculated from non-test votes.
+- **Demo · sample votes:** Supabase is unavailable or unconfigured. The app labels the example totals as sample votes and saves them on the current device.
 
 Test votes use `is_test = true` and are excluded from public totals. A production question with `optional_test_mode = true` is not returned to normal players.
 
@@ -33,7 +33,7 @@ Test votes use `is_test = true` and are excluded from public totals. A productio
 1. **Landing:** product name, one-sentence premise, large red Start button and short privacy statement.
 2. **Question:** category, position in round, progress, white dilemma card and two neutral controls.
 3. **Decision:** controls lock immediately; the selected physical control confirms.
-4. **Reveal:** choice, both percentages, split bar, real total, majority/minority position and controversy score animate into view in 0.8–1.4 seconds.
+4. **Reveal:** choice, both percentages, split bar, real total, majority/minority position or tie, and controversy score appear after the player chooses.
 5. **Advance:** the player chooses Next Question; the app never auto-advances.
 6. **Summary:** the app calculates round statistics locally from the ten revealed real results and offers Play Again or an identity-free text copy.
 
@@ -80,10 +80,10 @@ Admins sign in through Supabase Auth. Membership in `admin_users` controls quest
 
 ## Visual and interaction system
 
-- Deep blue gradient base (`#071C4A`, `#0B4DDB`, `#1478FF`) with restrained glow and faint grid.
-- White elevated cards with 24–30px radii and wide soft shadows.
-- Red is reserved for the physical button and PRESS result (`#F02B36`, `#FF4550`, `#A91320`).
-- Inter or a metrically similar sans-serif; body text at least 16px where space allows, regular controls at least 14px, compact metadata never below 10px.
+- A warm paper background with ink-coloured type and thin rules.
+- Divide the question into “The deal” and “The catch”. Show the answer and vote split directly below.
+- Use brick red for the physical button and the press vote, and slate blue for the walk-away vote.
+- Use Georgia for headlines and dilemmas, and system sans-serif for controls and supporting text.
 - Mobile support begins at 360px, with large tap targets, no horizontal page scrolling and a focused single-column result layout.
 - Semantic buttons, keyboard focus, screen-reader labels, text alternatives to colour, and `prefers-reduced-motion` are required.
 
