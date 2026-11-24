@@ -24,7 +24,7 @@ supabase/             建表、权限规则和题库导入 SQL
 scripts/              题库导出脚本
 README.md             原项目运行、数据库配置及部署说明
 SPEC_OPTIMIZED.md     原项目规格说明
-.openai/hosting.json  原 Sites 项目标识和静态目录配置
+.hosting/hosting.json 原 Sites 项目标识和静态目录配置
 
 【当前功能状态】
 原网站未填写 Supabase 配置，默认使用本地演示模式。
